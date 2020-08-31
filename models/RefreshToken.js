@@ -1,6 +1,3 @@
-const { sequelize } = require('.');
-const { DataTypes } = require('sequelize/types');
-
 module.exports = (sequelize, DataTypes) => {
   const RefreshToken = sequelize.define(
     'RefreshToken',
